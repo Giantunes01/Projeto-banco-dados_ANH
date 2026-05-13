@@ -1,7 +1,13 @@
+using Segundo_App_BancoDados.Repository;
+using Segundo_App_BancoDados.Repository.Contract;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Adicionando a interface como serviço
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 var app = builder.Build();
 

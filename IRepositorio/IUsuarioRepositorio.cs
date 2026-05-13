@@ -1,4 +1,5 @@
-﻿using Segundo_App_BancoDados.Models;
+﻿using segundo_App_BancoDados.Models;
+using Segundo_App_BancoDados.Models;
 
 namespace Segundo_App_BancoDados.Repository.Contract
 {

@@ -1,8 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
-using segundo_App_BancoDados.IRepositorio;
 using Segundo_App_BancoDados.Models;
 using Segundo_App_BancoDados.Repository.Contract;
-using System.Data;
 
 namespace Segundo_App_BancoDados.Repository
 {
